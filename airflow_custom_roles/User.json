@@ -1,0 +1,285 @@
+{
+  "name": "User",
+  "actions": [
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "DAGs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_edit"
+      },
+      "resource": {
+        "name": "DAGs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_delete"
+      },
+      "resource": {
+        "name": "DAGs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "DAG Runs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Task Instances"
+      }
+    },
+    {
+      "action": {
+        "name": "can_edit"
+      },
+      "resource": {
+        "name": "Task Instances"
+      }
+    },
+    {
+      "action": {
+        "name": "can_delete"
+      },
+      "resource": {
+        "name": "DAG Runs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_edit"
+      },
+      "resource": {
+        "name": "DAG Runs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Audit Logs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "ImportError"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "XComs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "DAG Code"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Plugins"
+      }
+    },
+    {
+      "action": {
+        "name": "can_edit"
+      },
+      "resource": {
+        "name": "My Password"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "My Password"
+      }
+    },
+    {
+      "action": {
+        "name": "can_edit"
+      },
+      "resource": {
+        "name": "My Profile"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "My Profile"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "DAG Runs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Jobs"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Jobs"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Audit Logs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_create"
+      },
+      "resource": {
+        "name": "Task Instances"
+      }
+    },
+    {
+      "action": {
+        "name": "can_delete"
+      },
+      "resource": {
+        "name": "Task Instances"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Task Instances"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "SLA Misses"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "SLA Misses"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Plugins"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Browse"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "DAG Dependencies"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Docs"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Documentation"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "DAG Dependencies"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Task Logs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Website"
+      }
+    },
+    {
+      "action": {
+        "name": "can_create"
+      },
+      "resource": {
+        "name": "DAG Runs"
+      }
+    }
+  ]
+}

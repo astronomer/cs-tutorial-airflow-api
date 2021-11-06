@@ -1,0 +1,693 @@
+{
+  "name": "Admin",
+  "actions": [
+    {
+      "action": {
+        "name": "can_edit"
+      },
+      "resource": {
+        "name": "Passwords"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Passwords"
+      }
+    },
+    {
+      "action": {
+        "name": "can_edit"
+      },
+      "resource": {
+        "name": "My Password"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "My Password"
+      }
+    },
+    {
+      "action": {
+        "name": "can_edit"
+      },
+      "resource": {
+        "name": "My Profile"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "My Profile"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Users"
+      }
+    },
+    {
+      "action": {
+        "name": "can_create"
+      },
+      "resource": {
+        "name": "Users"
+      }
+    },
+    {
+      "action": {
+        "name": "can_edit"
+      },
+      "resource": {
+        "name": "Users"
+      }
+    },
+    {
+      "action": {
+        "name": "can_delete"
+      },
+      "resource": {
+        "name": "Users"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Roles"
+      }
+    },
+    {
+      "action": {
+        "name": "can_delete"
+      },
+      "resource": {
+        "name": "Roles"
+      }
+    },
+    {
+      "action": {
+        "name": "can_edit"
+      },
+      "resource": {
+        "name": "Roles"
+      }
+    },
+    {
+      "action": {
+        "name": "can_create"
+      },
+      "resource": {
+        "name": "Roles"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "User Stats Chart"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Permissions"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "View Menus"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Permission Views"
+      }
+    },
+    {
+      "action": {
+        "name": "can_get"
+      },
+      "resource": {
+        "name": "MenuApi"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "DAG Runs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "DAG Runs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_delete"
+      },
+      "resource": {
+        "name": "DAG Runs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_edit"
+      },
+      "resource": {
+        "name": "DAG Runs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Jobs"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Jobs"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Audit Logs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Audit Logs"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Variables"
+      }
+    },
+    {
+      "action": {
+        "name": "can_delete"
+      },
+      "resource": {
+        "name": "Variables"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Variables"
+      }
+    },
+    {
+      "action": {
+        "name": "can_edit"
+      },
+      "resource": {
+        "name": "Variables"
+      }
+    },
+    {
+      "action": {
+        "name": "can_create"
+      },
+      "resource": {
+        "name": "Variables"
+      }
+    },
+    {
+      "action": {
+        "name": "can_create"
+      },
+      "resource": {
+        "name": "Task Instances"
+      }
+    },
+    {
+      "action": {
+        "name": "can_delete"
+      },
+      "resource": {
+        "name": "Task Instances"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Task Instances"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Task Instances"
+      }
+    },
+    {
+      "action": {
+        "name": "can_edit"
+      },
+      "resource": {
+        "name": "Task Instances"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Task Reschedules"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Task Reschedules"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Triggers"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Triggers"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Configurations"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Configurations"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Connections"
+      }
+    },
+    {
+      "action": {
+        "name": "can_delete"
+      },
+      "resource": {
+        "name": "Connections"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Connections"
+      }
+    },
+    {
+      "action": {
+        "name": "can_edit"
+      },
+      "resource": {
+        "name": "Connections"
+      }
+    },
+    {
+      "action": {
+        "name": "can_create"
+      },
+      "resource": {
+        "name": "Connections"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "SLA Misses"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "SLA Misses"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Plugins"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Plugins"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Providers"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Providers"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Pools"
+      }
+    },
+    {
+      "action": {
+        "name": "can_delete"
+      },
+      "resource": {
+        "name": "Pools"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Pools"
+      }
+    },
+    {
+      "action": {
+        "name": "can_edit"
+      },
+      "resource": {
+        "name": "Pools"
+      }
+    },
+    {
+      "action": {
+        "name": "can_create"
+      },
+      "resource": {
+        "name": "Pools"
+      }
+    },
+    {
+      "action": {
+        "name": "can_create"
+      },
+      "resource": {
+        "name": "XComs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_delete"
+      },
+      "resource": {
+        "name": "XComs"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "XComs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "XComs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_dismiss"
+      },
+      "resource": {
+        "name": "UpdateAvailable"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Security"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "List Users"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "List Roles"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "User's Statistics"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Base Permissions"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Views/Menus"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Permission on Views/Menus"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Browse"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "DAG Dependencies"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Admin"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Docs"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Documentation"
+      }
+    },
+    {
+      "action": {
+        "name": "menu_access"
+      },
+      "resource": {
+        "name": "Astronomer"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "DAGs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "DAG Dependencies"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "DAG Code"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "ImportError"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Task Logs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_read"
+      },
+      "resource": {
+        "name": "Website"
+      }
+    },
+    {
+      "action": {
+        "name": "can_edit"
+      },
+      "resource": {
+        "name": "DAGs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_delete"
+      },
+      "resource": {
+        "name": "DAGs"
+      }
+    },
+    {
+      "action": {
+        "name": "can_create"
+      },
+      "resource": {
+        "name": "DAG Runs"
+      }
+    }
+  ]
+}

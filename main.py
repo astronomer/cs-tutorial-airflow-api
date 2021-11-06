@@ -6,12 +6,14 @@ from requests.auth import HTTPBasicAuth
 class AirflowAPI:
     def __init__(self):
         self.domain = 'http://localhost:8080'
+        # self.domain = 'http://<deployment-name>/<release-name>/airflow' # Use this to run api commands against an Astronomer deployment
         self.headers = {
             "cache-control": "no-cache",
             "content-type": "application/json",
-            "accept": "application/json",
+            "accept": "application/json"
+            # "authorization": "<insert api_key here>" # Use this parameter to run api commands against an Astronomer deployment
         }
-        self.auth = HTTPBasicAuth('admin', 'admin')
+        self.auth = HTTPBasicAuth('admin', 'admin') # Remove this if using authorization in the headers
 
     def _toggle_pause(self, dag_id, is_paused):
         endpoint = f'/api/v1/dags/{dag_id}'
